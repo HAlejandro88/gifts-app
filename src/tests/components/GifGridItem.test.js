@@ -28,5 +28,13 @@ describe('pruebas en el componente <GiFGridItem />', () => {
         expect(img.prop('alt')).toBe(title);
     });
 
+    test('debe de tener la cse fadeInDown el contenedor', () => {
+        const container = wrapper.find('div');
+        const className = container.prop('className');
+        expect( className.includes('animate__fadeInDown')).toBe(true);
+
+    })
+    
+
     
 });
