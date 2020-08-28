@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en el componente GigGrid comparar contra el snapshot 1`] = `
+<Fragment>
+  <h3>
+    batman
+  </h3>
+  <p>
+    Esta Cargando
+  </p>
+  <div
+    className="card-grid"
+  />
+</Fragment>
+`;
